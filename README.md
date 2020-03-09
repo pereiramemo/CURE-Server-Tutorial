@@ -21,3 +21,4 @@ vncserver :1 -geometry 1400x1000
 
 ### Explorar en windows ...
 
+7. Para usar R copiamos el siguiente link en el browser de nuestra computadora: http://lacalavera.cure.edu.uy:8787. Luego, simplemente nos logueamos con nuestro usuario y contraseña del servidor. 
