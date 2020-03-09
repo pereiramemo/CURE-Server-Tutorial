@@ -10,9 +10,14 @@ ssh -X usuario@lacalavera.cure.edu.uy
 ```
 4. Luego de ingresar la contraseña estaremos logueados en el servidor (pero sin interfase grafica). [Aca](https://fortinux.gitbooks.io/humble_tips/content/usando_la_linea_de_comandos/) hay un tutorial basico para usar la linea de comando.
 
-5. Para conectarnos con una interfase grafica (i.e., ver la pantalla del servidor), debemos usar el ["Virtual Network Computing" (VNC)](https://es.wikipedia.org/wiki/VNC). Para esto, primero tenemos que instalar un cliente de VNC en nuestra computadora (e.g., [realvnc](https://www.realvnc.com/en/connect/download/viewer)) y luego vamos a correr el siguiente comando desde el servidor, para iniciar el VNC server:
+5. Para conectarnos con una interfase grafica (i.e., ver la pantalla del servidor), debemos usar el ["Virtual Network Computing" (VNC)](https://es.wikipedia.org/wiki/VNC). Para esto, primero tenemos que instalar un cliente de VNC en nuestra computadora (creo que PuTTY se podria usar para esto) y luego vamos a correr el siguiente comando desde el servidor, para iniciar el VNC server:
 ```
 vncserver :1 -geometry 1400x1000
-```
 
+```
+### Explorar en windows ...
+
+6. Para copiar archivos: [rsync](https://kyup.com/tutorials/copy-files-rsync-ssh/) o PuTTY.
+
+### Explorar en windows ...
 
