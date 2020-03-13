@@ -40,6 +40,7 @@ rsync -a /ruta/al/archivo/local/nombre_del_archivo usuario@lacalavera.cure.edu.u
 
 **6.** Para usar R en el servidor, vamos a usar Rstudio server. Para esto, simplemente compiamos el siguiente link en el browser de nuestra computadora: http://lacalavera.cure.edu.uy:8787. Luego, nos logueamos con nuestro usuario y contraseña del servidor.  
 
-**Nota4:** Todos los archivos utilizados y generados en R estarán en el servidor, en nuestro directorio home.   
+**Nota4:** Todos los archivos utilizados y generados en R estarán en el servidor, en nuestro directorio home.  
+
 **Nota5:** Todas las conexiones al servidor , ya sea por ```ssh```, VNC, o R, solo puden hacerse si estamos conectados por VPN.
 
