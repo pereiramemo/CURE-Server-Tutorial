@@ -24,7 +24,7 @@ Algunos comandos básicos son:
 vncserver :1 -geometry 1400x1000 
 ```
 
-**Nota2:** los parámetros ```:1``` y ```-geometry 1400x1000``` deben ser ajustados.
+**Nota2:** Los parámetros ```:1``` y ```-geometry 1400x1000``` deben ser ajustados.
 
 Con el cliente VNC instalado en nuestra computadora local, vamos a poner la dirección ```lacalavera.cure.edu.uy:5901``` en el campo de conexión VNC.
 
