@@ -33,8 +33,10 @@ Con el cliente VNC instalado en nuestra computadora local, vamos a entrar la dir
 
 Por ejemplo, para copiar un archivo desde nuestra computadora local al servidor corremos el comando:
 
-```rsync -a /ruta/al/archivo/local/nombre_del_archivo usuario@lacalavera.cure.edu.uy:/ruta/de/destino/en/servidor```
-
+```
+rsync -a /ruta/al/archivo/local/nombre_del_archivo usuario@lacalavera.cure.edu.uy:/ruta/de/destino/en/servidor
+```
+**Nota4** ```usuario``` es nuestro usuario en el servidor.
 
 ### Explorar en windows ...
 
