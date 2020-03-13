@@ -8,6 +8,9 @@
 ssh -X usuario@lacalavera.cure.edu.uy
 ```
 
+**Nota1:** También nos podemos conectar usando directamente la dirección IP del servidor 164.73.226.83, en lugar del nombre.
+
+
 **3.** Luego de ingresar la contraseña, estaremos logueados (aunque sin interfase gráfica). [Aca](https://fortinux.gitbooks.io/humble_tips/content/usando_la_linea_de_comandos/) hay un tutorial para usar la linea de comando. Alguns comandos básicos:  
 ```cd```: cambia de directorio  
 ```mkdir```: crea un directorio  
@@ -20,7 +23,11 @@ ssh -X usuario@lacalavera.cure.edu.uy
 vncserver :1 -geometry 1400x1000 
 ```
 
-**Nota1**: los parámtros ```:1``` y ```-geometry 1400x1000``` deben ser ajustados.
+**Nota2:** los parámtros ```:1``` y ```-geometry 1400x1000``` deben ser ajustados.
+
+Con el cliente VNC instalado en nuestra computadora local, vamos a entrar la dirección lacalvera.cure.edu.uy:5901 en el campo de conexión VNC.
+**Nota3:** Igual que la conexión por ssh, También podemos usar la dirección IP.
+
 
 
 ### Explorar en windows ...
