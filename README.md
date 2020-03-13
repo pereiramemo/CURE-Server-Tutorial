@@ -26,7 +26,8 @@ vncserver :1 -geometry 1400x1000
 **Nota2:** los parámtros ```:1``` y ```-geometry 1400x1000``` deben ser ajustados.
 
 Con el cliente VNC instalado en nuestra computadora local, vamos a entrar la dirección lacalvera.cure.edu.uy:5901 en el campo de conexión VNC.
-**Nota3:** Igual que la conexión por ssh, También podemos usar la dirección IP.
+
+**Nota3:** Igual que la conexión por ```ssh```, También podemos usar la dirección IP.
 
 
 
