@@ -8,11 +8,11 @@
 ssh -X usuario@lacalavera.cure.edu.uy
 ```
 
-**3.** Luego de ingresar la contraseña, estaremos logueados (aunque sin interfase gráfica). [Aca](https://fortinux.gitbooks.io/humble_tips/content/usando_la_linea_de_comandos/) hay un tutorial para usar la linea de comando. Alguns comandos básicos: 
-```cd```: cambia de directorio
-```mkdir```: crea un directorio
-```ls```: lista los archivos en un directorio
-```less```: muestra el contenido de un archivo de texto
+**3.** Luego de ingresar la contraseña, estaremos logueados (aunque sin interfase gráfica). [Aca](https://fortinux.gitbooks.io/humble_tips/content/usando_la_linea_de_comandos/) hay un tutorial para usar la linea de comando. Alguns comandos básicos:  
+```cd```: cambia de directorio  
+```mkdir```: crea un directorio  
+```ls```: lista los archivos en un directorio  
+```less```: muestra el contenido de un archivo de texto  
 
 **4.** Para conectarnos con una interfase gráfica (i.e., ver la pantalla del servidor), debemos usar el ["Virtual Network Computing" (VNC)](https://es.wikipedia.org/wiki/VNC). Para esto, primero tenemos que instalar un cliente de VNC en nuestra computadora (e.g., Remmina) y luego vamos a correr el siguiente comando desde el servidor, para iniciar el VNC server:
 ```
