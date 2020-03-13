@@ -29,11 +29,12 @@ Con el cliente VNC instalado en nuestra computadora local, vamos a entrar la dir
 
 **Nota3:** Igual que la conexión por ```ssh```, También podemos usar la dirección IP.
 
+**5.** Para copiar archivos usaremos el prgrama [rsync](https://kyup.com/tutorials/copy-files-rsync-ssh/).
 
+Por ejemplo, para copiar un archivo desde nuestra computadora local al servidor corremos el comando:
 
-### Explorar en windows ...
+```rsync -a /ruta/al/archivo/local/nombre_del_archivo usuario@lacalavera.cure.edu.uy:/ruta/de/destino/en/servidor```
 
-6. Para copiar archivos: [rsync](https://kyup.com/tutorials/copy-files-rsync-ssh/) o PuTTY.
 
 ### Explorar en windows ...
 
