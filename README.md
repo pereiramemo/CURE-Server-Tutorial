@@ -36,8 +36,8 @@ Por ejemplo, para copiar un archivo desde nuestra computadora local al servidor 
 ```
 rsync -a /ruta/al/archivo/local/nombre_del_archivo usuario@lacalavera.cure.edu.uy:/ruta/de/destino/en/servidor
 ```
-**Nota4** ```usuario``` es nuestro usuario en el servidor.
 
-### Explorar en windows ...
+6. Para usar R en el servidor, vamos a usar Rstudio server. Para esto, simplemente compiamos  el siguiente link en el browser de nuestra computadora: http://lacalavera.cure.edu.uy:8787. Luego, nos logueamos con nuestro usuario y contraseña del servidor.  
 
-7. Para usar R copiamos el siguiente link en el browser de nuestra computadora: http://lacalavera.cure.edu.uy:8787. Luego, simplemente nos logueamos con nuestro usuario y contraseña del servidor. 
+**Nota4:** Todos los archivos utilizados y generados en R estarán en el servidor, en nuestro directorio home.
+
