@@ -12,7 +12,7 @@ ssh -X usuario@lacalavera.cure.edu.uy
 ```
 vncserver :1 -geometry 1400x1000 
 ```
-***Nota1***: los parámtros ```:1``` y ```-geometry 1400x1000``` deben ser ajustados.
+**Nota1**: los parámtros ```:1``` y ```-geometry 1400x1000``` deben ser ajustados.
 
 ### Explorar en windows ...
 
