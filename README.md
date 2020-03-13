@@ -13,7 +13,7 @@ ssh -X usuario@lacalavera.cure.edu.uy
 ```mkdir```: crea un directorio  
 ```ls```: lista los archivos en un directorio  
 ```less```: muestra el contenido de un archivo de texto  
-```rm```: elimina un archivo o directorio (si se utiliza el flag ```-r```)
+```rm```: elimina un archivo o directorio (i.e.,```rm -r```)
 
 **4.** Para conectarnos con una interfase gráfica (i.e., ver la pantalla del servidor), debemos usar el ["Virtual Network Computing" (VNC)](https://es.wikipedia.org/wiki/VNC). Para esto, primero tenemos que instalar un cliente de VNC en nuestra computadora (e.g., Remmina) y luego vamos a correr el siguiente comando desde el servidor, para iniciar el VNC server:
 ```
