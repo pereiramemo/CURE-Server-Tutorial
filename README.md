@@ -3,12 +3,10 @@
 
 **1.** Configuramos la ["Virtual Private Network" (VPN)](https://es.wikipedia.org/wiki/Red_privada_virtual) siguiendo los pasos de este [enlace](http://wiki.cure.edu.uy/index.php/Como_configurar_conexi%C3%B3n_VPN).
 
-**2.** Una vez conectados por VPN, nos podemos conectar al servidor con el siguiente comando:
-```
-ssh -X usuario@lacalavera.cure.edu.uy
-```
+**2.** Una vez conectados por VPN, nos podemos conectar al servidor lacalavera u oceania con comands
+`ssh -X usuario@lacalavera.cure.edu.uy` y `ssh -X usuario@oceania.cure.edu.uy`, respectivamente.
 
-**Nota1:** También nos podemos conectar usando directamente la dirección IP del servidor 164.73.226.87.
+**Nota1:** También nos podemos conectar usando directamente la dirección IP del servidor: 164.73.226.87 y 164.73.226.92 (lacalavera y oceania, respectivamente).
 
 
 **3.** Luego de ingresar la contraseña, estaremos logueados (aunque sin interfase gráfica). [Aca](https://fortinux.gitbooks.io/humble_tips/content/usando_la_linea_de_comandos/) hay un tutorial para usar la linea de comando. 
