@@ -12,7 +12,7 @@
 
 **Nota2:** En caso de utilizar windows, será necesario instalar y configurar [PuTTy](https://www.putty.org/) para poder conectarse por [SSH](https://en.wikipedia.org/wiki/Secure_Shell). En esta [página](https://phoenixnap.com/kb/install-putty-on-windows) pueden encontrar los pasos necesarios para la configuración. 
 
-**3.** Luego de ingresar la contraseña, estaremos logueados (aunque sin interfase gráfica). [Aca](https://fortinux.gitbooks.io/humble_tips/content/usando_la_linea_de_comandos/) hay un tutorial para usar la linea de comando. 
+**3.** Luego de ingresar la contraseña, estaremos logueados (aunque sin interfaz gráfica). [Aca](https://fortinux.gitbooks.io/humble_tips/content/usando_la_linea_de_comandos/) hay un tutorial para usar la linea de comando. 
 Algunos comandos básicos son:  
 ```cd```: cambia de directorio  
 ```mkdir```: crea un directorio  
@@ -20,7 +20,7 @@ Algunos comandos básicos son:
 ```less```: muestra el contenido de un archivo de texto  
 ```rm```: elimina un archivo o directorio (i.e.,```rm -r```)
 
-**4.** Para conectarnos con una interfase gráfica, es decir ver el escritorio en el servidor, debemos usar el ["Virtual Network Computing" (VNC)](https://es.wikipedia.org/wiki/VNC). Para esto, primero tenemos que instalar un cliente de VNC en nuestra computadora (e.g., [Remmina](https://remmina.org)) y luego vamos a correr el siguiente comando desde el servidor para iniciar el VNC server:
+**4.** Para conectarnos con una interfaz gráfica, es decir ver el escritorio en el servidor, debemos usar el ["Virtual Network Computing" (VNC)](https://es.wikipedia.org/wiki/VNC). Para esto, primero tenemos que instalar un cliente de VNC en nuestra computadora (e.g., [Remmina](https://remmina.org)) y luego vamos a correr el siguiente comando desde el servidor para iniciar el VNC server:
 ```
 vncserver :1 -geometry 1400x1000 
 ```
