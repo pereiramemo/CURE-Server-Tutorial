@@ -50,4 +50,4 @@ rsync -a /ruta/al/archivo/local/nombre_del_archivo usuario@oceania.cure.edu.uy:/
 
 **Nota6:** Todas las conexiones al servidor, ya sea por SSH, VNC, o R, solo pueden hacerse si estamos conectados por VPN.
 
-**Nota7:** Por el momento, el RStudio Server está únicamente instalado en la lacalavera. Dependiendo del uso de oceania, consideraremos en el futuro, tenerlo también en oceania.
+**Nota7:** Por el momento, el RStudio Server está únicamente instalado en la lacalavera. Dependiendo del uso de oceania, consideraremos en el futuro, tenerlo también en este servidor.
