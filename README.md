@@ -10,7 +10,7 @@
 
 **Nota1:** También nos podemos conectar usando directamente la dirección IP del servidor: 164.73.226.87 y 164.73.226.92 (lacalavera y oceania, respectivamente).
 
-**Nota2:** En caso de utilizar windows, será necesario instalar y configurar [PuTTy](https://www.putty.org/) para poder conectarse por [SSH](https://en.wikipedia.org/wiki/Secure_Shell). En está [página](https://phoenixnap.com/kb/install-putty-on-windows) pueden encontrar los pasos necesarios para la configuración. 
+**Nota2:** En caso de utilizar windows, será necesario instalar y configurar [PuTTy](https://www.putty.org/) para poder conectarse por [SSH](https://en.wikipedia.org/wiki/Secure_Shell). En esta [página](https://phoenixnap.com/kb/install-putty-on-windows) pueden encontrar los pasos necesarios para la configuración. 
 
 **3.** Luego de ingresar la contraseña, estaremos logueados (aunque sin interfase gráfica). [Aca](https://fortinux.gitbooks.io/humble_tips/content/usando_la_linea_de_comandos/) hay un tutorial para usar la linea de comando. 
 Algunos comandos básicos son:  
