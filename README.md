@@ -44,7 +44,7 @@ Para el servidor oceania, el comando sería especificando `oceania` en lugar de 
 rsync -a /ruta/al/archivo/local/nombre_del_archivo usuario@oceania.cure.edu.uy:/ruta/de/destino/en/servidor
 ```
 
-**6.** Para usar R en el servidor, vamos a usar [RStudio server](https://www.rstudio.com/products/rstudio/#rstudio-server). Para esto, simplemente copiamos el siguiente link en el browser de nuestra computadora: http://lacalavera.cure.edu.uy:8787. Luego, nos logueamos con nuestro usuario y contraseña del servidor.  
+**6.** Para usar R en el servidor, vamos a usar [RStudio Server](https://www.rstudio.com/products/rstudio/#rstudio-server). Para esto, simplemente copiamos el siguiente link en el browser de nuestra computadora: http://lacalavera.cure.edu.uy:8787. Luego, nos logueamos con nuestro usuario y contraseña del servidor.  
 
 **Nota5:** Todos los archivos utilizados y generados en R estarán en el servidor. 
 
