@@ -3,8 +3,8 @@
 
 **1.** Configuramos la ["Virtual Private Network" (VPN)](https://es.wikipedia.org/wiki/Red_privada_virtual) siguiendo los pasos de este [enlace](http://wiki.cure.edu.uy/index.php/Como_configurar_conexi%C3%B3n_VPN).
 
-**2.** Una vez conectados por VPN, nos podemos conectar al servidor lacalavera u oceania con comands
-`ssh -X usuario@lacalavera.cure.edu.uy` y `ssh -X usuario@oceania.cure.edu.uy`, respectivamente, sustituyendo la palabra `usuario` con su nombre de usuario. 
+**2.** Una vez conectados por VPN, nos podemos conectar al servidor lacalavera u oceania con los comandos
+`ssh -X usuario@lacalavera.cure.edu.uy` y `ssh -X usuario@oceania.cure.edu.uy`, respectivamente (sustituyendo la palabra `usuario` con su nombre de usuario). 
 
 **Nota1:** También nos podemos conectar usando directamente la dirección IP del servidor: 164.73.226.87 y 164.73.226.92 (lacalavera y oceania, respectivamente).
 
