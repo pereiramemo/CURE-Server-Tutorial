@@ -28,17 +28,17 @@ Con el cliente VNC instalado en nuestra computadora local, vamos a poner la dire
 
 **Nota3:** Igual que la conexión por ```ssh```, también podemos usar la dirección IP.
 
-**Nota4:** Por el momento, el servidor lacalavera es el únicao que tiene interfase gráfica. Dependiendo del uso de oceania, consideraremos instalar una interface gráfica en el futuro.
+**Nota4:** Por el momento, el servidor lacalavera es el únicao que tiene interfase gráfica. Dependiendo del uso de oceania, consideraremos en el futuro, instalar una interface gráfica también en este servidor.
 
 **5.** Para copiar archivos desde nuestra computadora al servidor (y viceversa) usaremos el programa [rsync](https://kyup.com/tutorials/copy-files-rsync-ssh/).
 
-Por ejemplo, para copiar un archivo desde nuestra computadora local al servidor corremos el comando:
+Por ejemplo, para copiar un archivo desde nuestra computadora local al servidor lacalavera corremos el comando:
 
 ```
 rsync -a /ruta/al/archivo/local/nombre_del_archivo usuario@lacalavera.cure.edu.uy:/ruta/de/destino/en/servidor
 ```
 
-En el caso de oceania, el comando sería especificando oceania en lugar de lacalavera:
+Para el servidor oceania, el comando sería especificando `oceania` en lugar de `lacalavera`:
 
 ```
 rsync -a /ruta/al/archivo/local/nombre_del_archivo usuario@oceania.cure.edu.uy:/ruta/de/destino/en/servidor
@@ -48,6 +48,6 @@ rsync -a /ruta/al/archivo/local/nombre_del_archivo usuario@oceania.cure.edu.uy:/
 
 **Nota5:** Todos los archivos utilizados y generados en R estarán en el servidor. 
 
-**Nota6:** Todas las conexiones al servidor , ya sea por ```ssh```, VNC, o R, solo pueden hacerse si estamos conectados por VPN.
+**Nota6:** Todas las conexiones al servidor, ya sea por ```ssh```, VNC, o R, solo pueden hacerse si estamos conectados por VPN.
 
-**Nota7:** Por el momento, el RStudio server está únicamente instalado en la lacalavera. Dependiendo del uso de oceania, consideraremos instalar RStudio  server en oceania en el futuro.
+**Nota7:** Por el momento, el RStudio server está únicamente instalado en la lacalavera. Dependiendo del uso de oceania, consideraremos instalar RStudio server en oceania en el futuro.
