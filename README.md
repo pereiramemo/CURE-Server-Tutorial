@@ -4,7 +4,7 @@
 **1.** Configuramos la ["Virtual Private Network" (VPN)](https://es.wikipedia.org/wiki/Red_privada_virtual) siguiendo los pasos de este [enlace](http://wiki.cure.edu.uy/index.php/Como_configurar_conexi%C3%B3n_VPN).
 
 **2.** Una vez conectados por VPN, nos podemos conectar al servidor lacalavera u oceania con comands
-`ssh -X usuario@lacalavera.cure.edu.uy` y `ssh -X usuario@oceania.cure.edu.uy`, respectivamente.
+`ssh -X usuario@lacalavera.cure.edu.uy` y `ssh -X usuario@oceania.cure.edu.uy`, respectivamente, sustituyendo la palabra `usuario` con su nombre de usuario. 
 
 **Nota1:** También nos podemos conectar usando directamente la dirección IP del servidor: 164.73.226.87 y 164.73.226.92 (lacalavera y oceania, respectivamente).
 
@@ -28,6 +28,8 @@ Con el cliente VNC instalado en nuestra computadora local, vamos a poner la dire
 
 **Nota3:** Igual que la conexión por ```ssh```, también podemos usar la dirección IP.
 
+**Nota4:** Por el momento, el servidor lacalavera es el únicao que tiene interfase gráfica. Dependiendo del uso de oceania, consideraremos instalar una interface gráfica en el futuro.
+
 **5.** Para copiar archivos desde nuestra computadora al servidor (y viceversa) usaremos el programa [rsync](https://kyup.com/tutorials/copy-files-rsync-ssh/).
 
 Por ejemplo, para copiar un archivo desde nuestra computadora local al servidor corremos el comando:
@@ -36,9 +38,16 @@ Por ejemplo, para copiar un archivo desde nuestra computadora local al servidor 
 rsync -a /ruta/al/archivo/local/nombre_del_archivo usuario@lacalavera.cure.edu.uy:/ruta/de/destino/en/servidor
 ```
 
+En el caso de oceania, el comando sería especificando oceania en lugar de lacalavera:
+
+```
+rsync -a /ruta/al/archivo/local/nombre_del_archivo usuario@oceania.cure.edu.uy:/ruta/de/destino/en/servidor
+```
+
 **6.** Para usar R en el servidor, vamos a usar Rstudio server. Para esto, simplemente copiamos el siguiente link en el browser de nuestra computadora: http://lacalavera.cure.edu.uy:8787. Luego, nos logueamos con nuestro usuario y contraseña del servidor.  
 
-**Nota4:** Todos los archivos utilizados y generados en R estarán en el servidor. 
+**Nota5:** Todos los archivos utilizados y generados en R estarán en el servidor. 
 
-**Nota5:** Todas las conexiones al servidor , ya sea por ```ssh```, VNC, o R, solo pueden hacerse si estamos conectados por VPN.
+**Nota6:** Todas las conexiones al servidor , ya sea por ```ssh```, VNC, o R, solo pueden hacerse si estamos conectados por VPN.
 
+**Nota7:** Por el momento, el RStudio server está únicamente instalado en la lacalavera. Dependiendo del uso de oceania, consideraremos instalar RStudio  server en oceania en el futuro.
